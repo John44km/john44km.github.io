@@ -3,7 +3,7 @@ html {
 	padding: 0;
 	}
 body {
-	font: 75% georgia, sans-serif;
+	font: 100% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753;
 	background: #fff;
@@ -23,14 +23,14 @@ h3 {
 a:link {
 	font-weight: bold;
 	text-decoration: none;
-	color: #B7A5DF;
+	color: cornflowerblue;
 	}
 a:visited {
 	font-weight: bold;
 	text-decoration: none;
-	color: #D4CDDC;
+	color: deeppink;
 	}
 a:hover, a:focus, a:active {
 	text-decoration: underline;
-	color: #9685BA;
+	color: hotpink;
 	}
