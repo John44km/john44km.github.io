@@ -34,3 +34,9 @@ a:hover, a:focus, a:active {
 	text-decoration: underline;
 	color: hotpink;
 	}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
