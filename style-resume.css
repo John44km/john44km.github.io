@@ -2,6 +2,9 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+title {
+  border-top: 1px dotted black;
+}
 body {
 	font: 100% georgia, sans-serif;
 	line-height: 1.88889;
