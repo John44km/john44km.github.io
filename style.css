@@ -1,8 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i&display=swap');
+html {
+	margin: 0;
+	padding: 0;
+	}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 body {
     font-family: 'EB Garamond', serif;
-}
-h1,{
+        }
+p {
+    margin-top: 0;}
+h1{
      font-family: 'Playfair Display SC', serif;
-}
+    text-decoration: underline;
+        }
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: cornflowerblue;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: deeppink;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: hotpink;
+	}
