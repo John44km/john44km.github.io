@@ -48,3 +48,11 @@ a:hover, a:focus, a:active {
 footer {
     text-align: right;
 }
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+}
