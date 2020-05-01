@@ -1,4 +1,57 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
-
-
+html {
+	margin: 0;
+	padding: 0;
+	}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+p {
+    margin-top: 0;
+    font-size:100%;
+    padding: .8%;
+}
+h3 {
+    padding:1%;
+}
+h2 {
+    padding:1%;
+}
+h4 {
+    padding:1%;
+}
+container {
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container .content {
+  position: absolute;
+  bottom: 4%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.35);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+}
+a:link {
+	font-weight: none;
+	text-decoration: underline;
+	color: white;
+	}
+a:visited {
+	font-weight: none;
+	text-decoration: underline;
+	color:white;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: white;
+	}
+footer {
+    text-align: right;
+}
