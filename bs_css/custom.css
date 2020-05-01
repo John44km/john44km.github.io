@@ -54,7 +54,6 @@ a:hover, a:focus, a:active {
 	}
 footer {
     text-align: right;
+    font-size: 20%;
 }
-#homepagebutton{
-    float:center;
-}
+
