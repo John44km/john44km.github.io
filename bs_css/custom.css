@@ -55,3 +55,7 @@ a:hover, a:focus, a:active {
 footer {
     text-align: right;
 }
+#policies {
+    float: right;
+    padding: 1%;
+}
