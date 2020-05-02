@@ -1,5 +1,16 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 700px) {
+  /* For desktop: */
+  .col-1 {width: 15;}
+  .col-2 {width: 35;}
+  .col-3 {width: 55%;}
+  .col-4 {width: 85;}
+  .col-5 {width: 100%;}
+}
 html {
 	margin: 0;
 	padding: 0;
@@ -31,12 +42,13 @@ container {
 }
 .container .content {
   position: absolute;
-  bottom: 2%;
+  bottom: 15%;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.35);
   color: #f1f1f1;
   width: 70%;
   padding: 10px;
+    opacity: .9;
 }
 a:link {
 	font-weight: none;
@@ -56,4 +68,5 @@ footer {
     text-align: right;
     font-size: 20%;
 }
+
 
