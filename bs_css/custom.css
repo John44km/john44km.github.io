@@ -42,7 +42,7 @@ container {
 }
 .container .content {
   position: absolute;
-  bottom: 2%;
+  bottom: 15%;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.35);
   color: #f1f1f1;
